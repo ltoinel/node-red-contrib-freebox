@@ -1,0 +1,21 @@
+{
+  "name": "node-red-contrib-freebox",
+  "version": "0.1.0",
+  "description": "A Node-Red plugin that exchange with Freebox API",
+  "dependencies": {
+    "request": "~2.83.0",
+    "xml2js": "^0.4.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ltoinel/node-red-freebox"
+  },
+  "author": "Ludovic Toinel <ltoinel@free.fr> (https://github.com/ltoinel)",
+  "license": "Apache License",
+   "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "sample": "freebox/freebox.js"
+        }
+    }
+}
