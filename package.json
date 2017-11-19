@@ -13,9 +13,9 @@
   "author": "Ludovic Toinel <ltoinel@free.fr> (https://github.com/ltoinel)",
   "license": "Apache License",
    "keywords": [ "node-red" ],
-    "node-red"     : {
+   "node-red"     : {
         "nodes": {
-            "sample": "freebox/freebox.js"
+            "freebox": "freebox/freebox.js"
         }
     }
 }
