@@ -1,21 +1,76 @@
 {
-  "name": "node-red-contrib-freebox",
-  "version": "0.1.0",
-  "description": "A Node-Red plugin that exchange with Freebox API",
+  "_from": "git+https://github.com/ltoinel/node-red-contrib-freebox.git",
+  "_id": "node-red-contrib-freebox@0.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/node-red-contrib-freebox",
+  "_phantomChildren": {
+    "aws-sign2": "0.7.0",
+    "aws4": "1.8.0",
+    "caseless": "0.12.0",
+    "co": "4.6.0",
+    "combined-stream": "1.0.8",
+    "extend": "3.0.2",
+    "fast-json-stable-stringify": "2.0.0",
+    "forever-agent": "0.6.1",
+    "form-data": "2.3.3",
+    "har-schema": "2.0.0",
+    "hawk": "6.0.2",
+    "http-signature": "1.2.0",
+    "is-typedarray": "1.0.0",
+    "isstream": "0.1.2",
+    "json-stringify-safe": "5.0.1",
+    "mime-types": "2.1.24",
+    "performance-now": "2.1.0",
+    "safe-buffer": "5.1.2",
+    "stringstream": "0.0.6",
+    "tunnel-agent": "0.6.0",
+    "uuid": "3.3.2"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/ltoinel/node-red-contrib-freebox.git",
+    "rawSpec": "https://github.com/ltoinel/node-red-contrib-freebox.git",
+    "saveSpec": "git+https://github.com/ltoinel/node-red-contrib-freebox.git",
+    "fetchSpec": "https://github.com/ltoinel/node-red-contrib-freebox.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ltoinel/node-red-contrib-freebox.git#7bb5bba21b88ac0cda604f08cc831e57f1eb2256",
+  "_spec": "https://github.com/ltoinel/node-red-contrib-freebox.git",
+  "_where": "C:\\Users\\ltoin\\AppData\\Roaming\\npm\\node_modules\\node-red",
+  "author": {
+    "name": "Ludovic Toinel",
+    "email": "ltoinel@free.fr",
+    "url": "https://github.com/ltoinel"
+  },
+  "bugs": {
+    "url": "https://github.com/ltoinel/node-red-freebox/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "request": "~2.83.0",
     "xml2js": "^0.4.19"
   },
+  "deprecated": false,
+  "description": "A Node-Red plugin that exchange with Freebox API",
+  "homepage": "https://github.com/ltoinel/node-red-freebox#readme",
+  "keywords": [
+    "node-red"
+  ],
+  "license": "Apache License",
+  "name": "node-red-contrib-freebox",
+  "node-red": {
+    "nodes": {
+      "freebox": "freebox.js"
+    }
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ltoinel/node-red-freebox"
+    "url": "git+https://github.com/ltoinel/node-red-freebox.git"
   },
-  "author": "Ludovic Toinel <ltoinel@free.fr> (https://github.com/ltoinel)",
-  "license": "Apache License",
-   "keywords": [ "node-red" ],
-   "node-red"     : {
-        "nodes": {
-            "freebox": "freebox/freebox.js"
-        }
-    }
+  "version": "0.1.0"
 }
