@@ -33,8 +33,9 @@ This module returns the list of all the devices connected on the Freebox network
 }
 ```
 
+On the first use of this node you will have 30 seconds to validate the token on the Freebox, after this validation the token will be stored in the Node-Red context.
 
-You need to enable a persistant storage in settings.js to allow this module to store the Freebox API token.
+You need to enable a persistant storage in settings.js to allow this module to store the Freebox API token after each reboot.
 
 ```
     contextStorage: {
