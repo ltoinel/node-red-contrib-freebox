@@ -72,5 +72,8 @@
     "type": "git",
     "url": "git+https://github.com/ltoinel/node-red-freebox.git"
   },
+  "publishConfig": { 
+     "registry": "https://npm.pkg.github.com/" 
+  },
   "version": "0.1.0"
 }
