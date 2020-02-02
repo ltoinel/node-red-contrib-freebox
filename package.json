@@ -62,7 +62,7 @@
     "node-red"
   ],
   "license": "Apache License",
-  "name": "node-red-contrib-freebox",
+  "name": "@ltoinel/node-red-contrib-freebox",
   "node-red": {
     "nodes": {
       "freebox": "freebox.js"
