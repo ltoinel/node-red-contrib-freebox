@@ -44,3 +44,6 @@ You need to enable a persistant storage in settings.js to allow this module to s
         },
     },
 ```
+
+### More information
+* (Node-Red : Créez une alarme intelligente grâce à votre Freebox)[https://www.geeek.org/node-red-alarme-intelligente-freebox/]
